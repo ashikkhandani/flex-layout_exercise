@@ -235,6 +235,9 @@ footer .footer-container .sub-content:nth-of-type(3) div:nth-child(3) i:hover {
   body {
     display: block;
   }
+  nav {
+    position: relative;
+  }
   .banner {
     flex-flow: column wrap;
     flex-basis: 100%;
@@ -251,6 +254,30 @@ footer .footer-container .sub-content:nth-of-type(3) div:nth-child(3) i:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+  }
+  footer
+    .footer-container
+    .sub-content:nth-of-type(3)
+    div:nth-child(1)
+    i:hover {
+    transition: 1.5s;
+    transform: rotateY(360deg);
+  }
+  footer
+    .footer-container
+    .sub-content:nth-of-type(3)
+    div:nth-child(2)
+    i:hover {
+    transition: 1.5s;
+    transform: rotateX(360deg);
+  }
+  footer
+    .footer-container
+    .sub-content:nth-of-type(3)
+    div:nth-child(3)
+    i:hover {
+    transition: 1.5s;
+    transform: rotateZ(360deg);
   }
 }
 
